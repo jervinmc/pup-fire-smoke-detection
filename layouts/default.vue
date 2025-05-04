@@ -125,8 +125,8 @@ export default {
         },
         {
           icon: "mdi-chart-bubble",
-          title: "Restaurant",
-          to: "/restaurant",
+          title: "Activity Logs",
+          to: "/activity_logs",
         },
       ],
       miniVariant: false,
