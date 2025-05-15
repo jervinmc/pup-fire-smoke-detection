@@ -123,11 +123,11 @@ export default {
           title: "Dashboard",
           to: "/dashboard",
         },
-        {
-          icon: "mdi-chart-bubble",
-          title: "Activity Logs",
-          to: "/activity_logs",
-        },
+        // {
+        //   icon: "mdi-chart-bubble",
+        //   title: "Activity Logs",
+        //   to: "/activity_logs",
+        // },
       ],
       miniVariant: false,
       right: true,

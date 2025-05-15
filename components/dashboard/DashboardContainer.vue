@@ -1,16 +1,10 @@
 <template>
     <div>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12">
           <v-card class="pa-10" align="center">
             <div>{{ latestTemperature }}</div>
-            <div class="text-h4">Temperature</div>
-          </v-card>
-        </v-col>
-        <v-col cols="6">
-          <v-card class="pa-10" align="center">
-            <div>{{ latestStatus }}</div>
-            <div class="text-h4">Status</div>
+            <div class="text-h4">Sensor Value</div>
           </v-card>
         </v-col>
       </v-row>
@@ -44,8 +38,7 @@
         logs: [], // To store incoming logs
         headers: [
           { text: 'Timestamp', value: 'timestamp' },
-          { text: 'Temperature', value: 'logs' },
-          { text: 'Status', value: 'status' },
+          { text: 'Sensor Value', value: 'logs' },
         ],
       };
     },
