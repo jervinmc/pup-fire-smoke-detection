@@ -1,7 +1,7 @@
 <template>
     <div>
       <v-row>
-        <v-col cols="12">
+        <v-col>
           <v-card class="pa-10" align="center">
             <div>{{ latestTemperature }}</div>
             <div class="text-h4">Sensor Value</div>
@@ -23,6 +23,27 @@
           </template>
         </v-data-table>
       </v-card>
+      <div>
+        <v-col cols="6">
+          <div>
+            <div class="text-h6 pb-1">
+              Standard Atmospheric Condition = 2,000-3,000
+            </div>
+            <div class="text-h6 pb-1">
+              Lighter Flame = 5,000 and Above
+            </div>
+            <div class="text-h6 pb-1">
+              Burning Paper = 5,000 and Above
+            </div>
+            <div class="text-h6 pb-1">
+              Liquefied Petroleum Gas (LPG) = 25,000 and Above
+            </div>
+            <div class="text-h6 pb-1">
+              Butane Gas = 25,000 and Above
+            </div>
+          </div>
+        </v-col>
+      </div>
     </div>
   </template>
   

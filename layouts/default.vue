@@ -124,7 +124,7 @@ export default {
           to: "/dashboard",
         },
         // {
-        //   icon: "mdi-chart-bubble",
+        //   icon: "mdi-chart-bubbled",
         //   title: "Activity Logs",
         //   to: "/activity_logs",
         // },
